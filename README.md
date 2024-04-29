@@ -89,3 +89,7 @@ Se llama al metodo `begin()` de `aac`, pasando como argumentos el objeto `in` y 
 Se verifica si el generador de audio AAC está en funcionamiento.
 - Si está en funcionamiento, se llama al método `loop()` de aac para procesar el audio.
 - Si la reproducción ha finalizado, se imprime "AAC done" por el puerto serie y se espera un segundo antes de repetir el ciclo.
+
+3. Imagen montaje
+
+![Montaje](ejercicio1.png)
