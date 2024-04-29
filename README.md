@@ -1,6 +1,7 @@
 # PRACTICA 7 :  Buses de comunicación III (I2S)  
 
 El objetivo de la practica actual es describir el funcionamiento del bus I2S y realizar una practica para comprender su  funcionamiento 
+
 Alumna: **Àfrica Abad**
 
 
