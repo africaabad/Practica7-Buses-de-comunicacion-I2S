@@ -17,7 +17,22 @@ La siguiente imagen muestra el cableado del ESP32 NodeMCU con el módulo de tarj
 ![Salida por el puerto serie](running.png)
 
 
-2. Explicar el funcionamiento 
+2. Explicar el funcionamiento
+
+Inclusión de librerías.
+
+  ´´´cpp
+  #include <Arduino.h>
+  #include <WiFi.h> / #include <ESP8266WiFi.h>
+  #include "AudioFileSourceICYStream.h"
+  #include "AudioFileSourceBuffer.h"
+  #include "AudioGeneratorMP3.h"
+  #include "AudioGeneratorAAC.h"
+  #include "AudioOutputI2S.h"
+  #include <EEPROM.h>
+  #include "web.h"
+  ´´´
+    
 
 3. Montaje
 
@@ -26,4 +41,14 @@ La siguiente imagen muestra el cableado del ESP32 NodeMCU con el módulo de tarj
 4. Web
 
 ![Web](web.png)
+
+Desde la web se puede controlar la reproducción de radio por Internet, cambiar de estación, ajustar el volumen y obtener información sobre la canción actual.
+
+
+
+
+
+
+
+
 
